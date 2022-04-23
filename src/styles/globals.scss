@@ -265,3 +265,19 @@
         }
     }
 }
+
+
+
+// Custom Styles
+.product{
+    &-image{
+        img{
+            @apply transition-all scale-100 duration-500 transform;    
+        }
+    }
+    &:hover &-image{
+        img{
+            @apply scale-110;
+        }
+    }
+}

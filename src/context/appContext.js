@@ -9,7 +9,7 @@ const AppContext = createContext(initialState);
 
 const appActions = (dispatch) => {
     return {
-        addToCart: (value) => dispatch({type: "ADD_TO_CART", payload: value}),
+        addToCart: (value) => dispatch({ type: "ADD_TO_CART", payload: value }),
     };
 };
 

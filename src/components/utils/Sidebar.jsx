@@ -8,7 +8,7 @@ const Sidebar = () => {
         <div className="sidebar-options fixed top-1/4 left-auto right-0">
         <ul className="pl-0 mb-0 list-none flex flex-col gap-3">
             <li>
-                <button className="inline-block h-10 w-10 border-0 text-center p-2">
+                <button className="inline-block h-10 w-10 border-0 relative text-center p-2">
                     <ReactSVG
                     className="fill-current "
                     src="/icons/search.svg"
@@ -20,7 +20,7 @@ const Sidebar = () => {
                 </button>
             </li>
             <li>
-                <button className="inline-block h-10 w-10 border-0 text-center p-2">
+                <button className="inline-block h-10 w-10 border-0 relative text-center p-2">
                     <ReactSVG
                     className="fill-current "
                     src="/icons/shopping-cart.svg"
@@ -35,7 +35,7 @@ const Sidebar = () => {
                 </button>
             </li>
             <li>
-                <button className="inline-block h-10 w-10 border-0 text-center p-2">
+                <button className="inline-block h-10 w-10 border-0 relative text-center p-2">
                     <ReactSVG
                     className="fill-current "
                     src="/icons/user.svg"
@@ -47,7 +47,7 @@ const Sidebar = () => {
                 </button>
             </li>
             <li>
-                <button className="inline-block h-10 w-10 border-0 text-center p-2">
+                <button className="inline-block h-10 w-10 border-0 relative text-center p-2">
                     <ReactSVG
                     className="fill-current "
                     src="/icons/heart.svg"

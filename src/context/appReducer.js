@@ -8,7 +8,6 @@ export const appReducer = (state, action) => {
 
             if (existItemIndex > -1) {
                 const cartNewState = [...state.cartProducts];
-                console.log(action.payload.quantity)
                 cartNewState[existItemIndex].quantity += action.payload.quantity || 1;
 
                 localStorage.setItem("cartProducts", JSON.stringify(cartNewState));
