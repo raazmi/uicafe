@@ -15,6 +15,8 @@ const Product = ({ product: { image_url, description, price, title, product_id }
         setIsCart(temp > -1);
     }, [cartProducts, product_id])
 
+    console.log(isCart);
+
 
     return (
         <div className="product">
